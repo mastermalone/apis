@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API's for personal projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo the test works",
+    "app_cache": "node server-scripts/caching/caching.js",
+    "test_app_cache": "node node_modules/appcache-node/test.js",
+    "start": "node start-server.js"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "mastermalone",
+  "license": "MIT",
+  "dependencies": {
+    "eventemitter2": "~1.0.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11",
+    "shelljs": "^0.7.0"
+  }
+}
